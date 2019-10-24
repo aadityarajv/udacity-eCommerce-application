@@ -5,9 +5,9 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,7 +24,7 @@ public class UserControllerTest {
     private User user;
 
 
-    @Before
+    @BeforeEach
     public void setUp() {
         userController = new UserController();
         TestUtils.injectObjects(userController, "userRepository", userRepository);
@@ -50,34 +50,34 @@ public class UserControllerTest {
         userRequest.setConfirmPassword("udacity");
 
         ResponseEntity<User> responseEntity = userController.createUser(userRequest);
-        Assert.assertEquals(HttpStatus.BAD_REQUEST.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertEquals(HttpStatus.BAD_REQUEST.value(), responseEntity.getStatusCodeValue());
 
         userRequest.setPassword("udacity-password");
         userRequest.setConfirmPassword("udacity-password-diff");
         responseEntity = userController.createUser(userRequest);
-        Assert.assertEquals(HttpStatus.BAD_REQUEST.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertEquals(HttpStatus.BAD_REQUEST.value(), responseEntity.getStatusCodeValue());
 
         userRequest.setPassword("udacity-password");
         userRequest.setConfirmPassword("udacity-password");
         responseEntity = userController.createUser(userRequest);
-        Assert.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
         User user = responseEntity.getBody();
-        Assert.assertEquals(user.getUsername(), userRequest.getUsername());
+        Assertions.assertEquals(user.getUsername(), userRequest.getUsername());
     }
 
     @Test
     public void findById() {
         ResponseEntity<User> responseEntity = userController.findById(1L);
-        Assert.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
         User user = responseEntity.getBody();
-        Assert.assertEquals(user.getUsername(), user.getUsername());
+        Assertions.assertEquals(user.getUsername(), user.getUsername());
     }
 
     @Test
     public void findByUserName() {
         ResponseEntity<User> responseEntity = userController.findByUserName(user.getUsername());
-        Assert.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
         User user = responseEntity.getBody();
-        Assert.assertEquals(user.getUsername(), user.getUsername());
+        Assertions.assertEquals(user.getUsername(), user.getUsername());
     }
 }

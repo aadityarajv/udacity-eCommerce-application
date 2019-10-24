@@ -8,9 +8,9 @@ import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.ItemRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.ModifyCartRequest;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,7 +26,7 @@ public class CartControllerTest {
     private ModifyCartRequest cartRequest;
 
 
-    @Before
+    @BeforeEach
     public void setUp() {
         cartController = new CartController();
         TestUtils.injectObjects(cartController, "userRepository", userRepository);
@@ -50,24 +50,24 @@ public class CartControllerTest {
     @Test
     public void addTocart() {
         ResponseEntity<Cart> cartResponseEntity = cartController.addTocart(cartRequest);
-        Assert.assertNotNull(cartResponseEntity);
-        Assert.assertEquals(HttpStatus.OK.value(), cartResponseEntity.getStatusCodeValue());
+        Assertions.assertNotNull(cartResponseEntity);
+        Assertions.assertEquals(HttpStatus.OK.value(), cartResponseEntity.getStatusCodeValue());
         Mockito.verify(userRepository).findByUsername("udacity");
 
         cartRequest.setUsername("null");
         cartResponseEntity = cartController.addTocart(cartRequest);
-        Assert.assertEquals(HttpStatus.NOT_FOUND.value(), cartResponseEntity.getStatusCodeValue());
+        Assertions.assertEquals(HttpStatus.NOT_FOUND.value(), cartResponseEntity.getStatusCodeValue());
     }
 
     @Test
     public void removeFromcart() {
         ResponseEntity<Cart> cartResponseEntity = cartController.removeFromcart(cartRequest);
-        Assert.assertNotNull(cartResponseEntity);
-        Assert.assertEquals(HttpStatus.OK.value(), cartResponseEntity.getStatusCodeValue());
+        Assertions.assertNotNull(cartResponseEntity);
+        Assertions.assertEquals(HttpStatus.OK.value(), cartResponseEntity.getStatusCodeValue());
         Mockito.verify(userRepository).findByUsername("udacity");
 
         cartRequest.setUsername("null");
         cartResponseEntity = cartController.removeFromcart(cartRequest);
-        Assert.assertEquals(HttpStatus.NOT_FOUND.value(), cartResponseEntity.getStatusCodeValue());
+        Assertions.assertEquals(HttpStatus.NOT_FOUND.value(), cartResponseEntity.getStatusCodeValue());
     }
 }

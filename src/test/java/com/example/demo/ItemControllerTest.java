@@ -3,9 +3,9 @@ package com.example.demo;
 import com.example.demo.controllers.ItemController;
 import com.example.demo.model.persistence.Item;
 import com.example.demo.model.persistence.repositories.ItemRepository;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +21,7 @@ public class ItemControllerTest {
     private ItemRepository itemRepository = Mockito.mock(ItemRepository.class);
 
 
-    @Before
+    @BeforeEach
     public void setUp() {
 
         Item item = new Item();
@@ -41,23 +41,23 @@ public class ItemControllerTest {
     @Test
     public void getItems() {
         ResponseEntity<List<Item>> responseEntity = itemController.getItems();
-        Assert.assertNotNull(responseEntity);
-        Assert.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
-        Assert.assertEquals(1, responseEntity.getBody().size());
+        Assertions.assertNotNull(responseEntity);
+        Assertions.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertEquals(1, responseEntity.getBody().size());
     }
 
     @Test
     public void getItemById() {
         ResponseEntity<Item> responseEntity = itemController.getItemById(1l);
-        Assert.assertNotNull(responseEntity);
-        Assert.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertNotNull(responseEntity);
+        Assertions.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
     }
 
     @Test
     public void getItemsByName() {
         ResponseEntity<List<Item>> responseEntity = itemController.getItemsByName("item");
-        Assert.assertNotNull(responseEntity);
-        Assert.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
-        Assert.assertEquals(1, responseEntity.getBody().size());
+        Assertions.assertNotNull(responseEntity);
+        Assertions.assertEquals(HttpStatus.OK.value(), responseEntity.getStatusCodeValue());
+        Assertions.assertEquals(1, responseEntity.getBody().size());
     }
 }
