@@ -1,5 +1,6 @@
 package com.example.demo.security;
 
+import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,7 +19,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
-        com.example.demo.model.persistence.User applicationUser = userRepository.findByUsername(username);
+        User applicationUser = userRepository.findByUsername(username);
         if (applicationUser == null) {
             throw new UsernameNotFoundException(username);
         }
