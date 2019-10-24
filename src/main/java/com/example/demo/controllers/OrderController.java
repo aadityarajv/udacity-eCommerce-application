@@ -29,12 +29,12 @@ public class OrderController {
         logger.debug("Submit order with username : {}", username);
         User user = userRepository.findByUsername(username);
         if (user == null) {
-            logger.info("User not found with username : {}", username);
+            logger.info("Order Failed : User not found with username : {}", username);
             return ResponseEntity.notFound().build();
         }
         UserOrder order = UserOrder.createFromCart(user.getCart());
         orderRepository.save(order);
-        logger.info("Order submitted successfully with id : {}", order.getId());
+        logger.info("Order submitted success : with id : {}", order.getId());
         return ResponseEntity.ok(order);
     }
 
@@ -43,7 +43,7 @@ public class OrderController {
         logger.debug("Get orders of user with username : {}", username);
         User user = userRepository.findByUsername(username);
         if (user == null) {
-            logger.info("User not found with username : {}", username);
+            logger.info("Order fetch failed : User not found with username : {}", username);
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(orderRepository.findByUser(user));

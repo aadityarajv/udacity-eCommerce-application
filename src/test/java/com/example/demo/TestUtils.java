@@ -16,15 +16,13 @@ public class TestUtils {
                 wasPrivate = true;
             }
             f.set(target, objectToInject);
-
             if (!wasPrivate == true) {
                 f.setAccessible(false);
             }
 
-        } catch (NoSuchFieldException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
+        } catch (Exception ex) {
+            System.out.println("Error :: Error while injecting object using reflection.");
+            ex.printStackTrace();
         }
     }
 }

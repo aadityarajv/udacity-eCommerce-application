@@ -48,7 +48,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
                             new ArrayList<>())
             );
         } catch (IOException e) {
-            logger.error("Error while authentication attempt {} : {}", e.getMessage(), e.getCause());
+            logger.error("Error :: while authentication attempt {} : {}", e.getMessage(), e.getCause());
             throw new RuntimeException(e);
         }
     }
