@@ -43,7 +43,7 @@ public class UserController {
     @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
 
-        logger.debug("Create user : {}", createUserRequest);
+        logger.debug("create user request : {}", createUserRequest);
         User user = new User();
         user.setUsername(createUserRequest.getUsername());
 
@@ -53,12 +53,12 @@ public class UserController {
 
         if (createUserRequest.getPassword().length() <= 7 ||
                 !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
-            logger.debug("User Creation Failed : Invalid password provided.");
+            logger.info("user creation Failed : Invalid password provided.");
             return ResponseEntity.badRequest().build();
         }
         user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
         userRepository.save(user);
-        logger.info("User Creation success :  with username : {}", user.getUsername());
+        logger.info("user creation success : with username : {}", user.getUsername());
         return ResponseEntity.ok(user);
     }
 }
