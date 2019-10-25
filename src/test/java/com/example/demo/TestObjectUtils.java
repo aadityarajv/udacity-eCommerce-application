@@ -6,7 +6,7 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.requests.ModifyCartRequest;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class TestObjectUtils {
 
@@ -16,10 +16,16 @@ public class TestObjectUtils {
         user.setUsername("udacity");
         user.setPassword("udacity-password");
 
+        Item item = new Item();
+        item.setId(11l);
+        item.setName("item-001");
+        item.setPrice(new BigDecimal(101));
+        item.setDescription("item-001");
+
         Cart cart = new Cart();
         cart.setId(2l);
         cart.setTotal(new BigDecimal(101));
-        cart.setItems(new ArrayList<>());
+        cart.setItems(Arrays.asList(item));
 
         user.setCart(cart);
         return user;
