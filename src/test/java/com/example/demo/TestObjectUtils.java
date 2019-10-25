@@ -6,7 +6,7 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.requests.ModifyCartRequest;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class TestObjectUtils {
 
@@ -25,7 +25,7 @@ public class TestObjectUtils {
         Cart cart = new Cart();
         cart.setId(2l);
         cart.setTotal(new BigDecimal(101));
-        cart.setItems(Arrays.asList(item));
+        cart.setItems(new ArrayList<>());
 
         user.setCart(cart);
         return user;
