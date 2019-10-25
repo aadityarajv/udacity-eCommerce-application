@@ -1,0 +1,216 @@
+2019-10-25 11:12:27,651 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 20724 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) |
+2019-10-25 11:12:27,662 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 11:12:27,664 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 11:12:35,364 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 8.026 seconds (JVM running for 10.091) | 
+2019-10-25 11:12:35,762 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | create user request : udacity | 
+2019-10-25 11:12:35,912 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | user creation success : with username : udacity | 
+2019-10-25 11:12:36,213 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 11:12:36,219 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 11:12:36,222 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 11:12:36,222 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 11:12:36,261 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 20724 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 11:12:36,261 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 11:12:36,262 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 11:12:38,175 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 1.942 seconds (JVM running for 12.902) | 
+2019-10-25 11:12:38,190 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 11:12:38,192 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 11:12:38,241 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 11:12:38,241 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 11:12:38,243 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 11:12:38,243 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 11:12:38,276 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 11:12:38,279 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:12:38,280 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 11:12:38,280 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:12:38,280 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 11:12:38,281 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:12:38,284 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
+2019-10-25 11:17:47,062 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 6976 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 11:17:47,074 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 11:17:47,076 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 11:17:54,519 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 7.85 seconds (JVM running for 9.77) | 
+2019-10-25 11:17:54,851 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | create user request : udacity | 
+2019-10-25 11:17:55,019 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | user creation success : with username : udacity | 
+2019-10-25 11:17:55,320 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 11:17:55,328 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 11:17:55,329 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 11:17:55,330 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 11:17:55,398 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 6976 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 11:17:55,398 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 11:17:55,399 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 11:17:57,038 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 1.688 seconds (JVM running for 12.289) | 
+2019-10-25 11:17:57,053 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 11:17:57,055 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 11:17:57,099 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 11:17:57,099 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 11:17:57,102 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 11:17:57,102 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 11:17:57,144 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 11:17:57,147 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:17:57,147 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 11:17:57,148 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:17:57,148 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 11:17:57,148 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:17:57,150 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
+2019-10-25 11:26:51,103 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 22532 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 11:26:51,117 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 11:26:51,118 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 11:26:58,201 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 7.411 seconds (JVM running for 9.099) | 
+2019-10-25 11:26:58,761 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | create user request : udacity | 
+2019-10-25 11:26:59,063 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | user creation success : with username : udacity | 
+2019-10-25 11:26:59,453 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 11:26:59,461 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 11:26:59,465 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 11:26:59,465 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 11:26:59,520 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 22532 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 11:26:59,521 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 11:26:59,521 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 11:27:01,737 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 2.251 seconds (JVM running for 12.635) | 
+2019-10-25 11:27:01,753 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 11:27:01,755 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 11:27:01,814 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 11:27:01,814 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 11:27:01,816 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 11:27:01,816 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 11:27:01,844 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 11:27:01,846 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:27:01,846 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 11:27:01,846 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:27:01,846 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 11:27:01,846 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 11:27:01,849 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
+2019-10-25 15:28:37,752 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 27700 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:28:37,765 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:28:37,767 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:28:46,204 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 8.859 seconds (JVM running for 10.914) | 
+2019-10-25 15:28:46,643 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | create user request : udacity | 
+2019-10-25 15:28:46,790 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | user creation success : with username : udacity | 
+2019-10-25 15:28:47,068 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 15:28:47,075 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:28:47,078 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 15:28:47,078 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:28:47,121 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 27700 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:28:47,122 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:28:47,122 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:28:49,098 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 2.004 seconds (JVM running for 13.808) | 
+2019-10-25 15:28:49,116 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 15:28:49,117 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 15:28:49,165 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 15:28:49,165 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 15:28:49,167 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 15:28:49,167 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 15:28:49,204 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 15:28:49,206 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:28:49,206 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:28:49,207 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:28:49,207 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:28:49,207 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:28:49,209 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
+2019-10-25 15:41:06,725 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 21756 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:41:06,735 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:41:06,736 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:41:13,556 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 7.104 seconds (JVM running for 8.807) | 
+2019-10-25 15:41:13,978 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-2] | create user request : udacity | 
+2019-10-25 15:41:14,186 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-2] | user creation success : with username : udacity | 
+2019-10-25 15:41:14,437 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 15:41:14,443 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:41:14,444 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 15:41:14,444 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:41:14,488 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 21756 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:41:14,488 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:41:14,489 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:41:16,084 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 1.627 seconds (JVM running for 11.335) | 
+2019-10-25 15:41:16,097 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 15:41:16,098 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 15:41:16,149 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 15:41:16,150 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 15:41:16,152 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 15:41:16,153 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 15:41:16,183 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 15:41:16,185 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:41:16,185 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:41:16,185 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:41:16,186 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:41:16,186 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:41:16,190 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
+2019-10-25 15:42:03,040 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 24940 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:42:03,049 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:42:03,050 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:42:09,753 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 7.006 seconds (JVM running for 8.707) | 
+2019-10-25 15:42:10,123 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | create user request : udacity | 
+2019-10-25 15:42:10,267 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | user creation success : with username : udacity | 
+2019-10-25 15:42:10,561 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 15:42:10,569 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:42:10,571 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 15:42:10,571 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:42:10,621 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 24940 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:42:10,621 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:42:10,622 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:42:12,500 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 1.916 seconds (JVM running for 11.454) | 
+2019-10-25 15:42:12,518 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 15:42:12,520 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 15:42:12,566 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 15:42:12,566 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 15:42:12,568 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 15:42:12,569 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 15:42:12,600 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 15:42:12,602 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:42:12,603 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:42:12,603 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:42:12,603 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:42:12,604 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:42:12,605 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
+2019-10-25 15:53:07,717 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 28044 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:53:07,727 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:53:07,728 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:53:14,864 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 7.431 seconds (JVM running for 9.248) | 
+2019-10-25 15:53:15,377 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-2] | create user request : udacity | 
+2019-10-25 15:53:15,562 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-2] | user creation success : with username : udacity | 
+2019-10-25 15:53:15,906 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 15:53:15,914 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:53:15,919 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 15:53:15,920 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 15:53:15,980 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 28044 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 15:53:15,981 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 15:53:15,982 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 15:53:18,301 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 2.362 seconds (JVM running for 12.685) | 
+2019-10-25 15:53:18,321 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 15:53:18,323 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 15:53:18,366 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 15:53:18,366 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 15:53:18,373 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 15:53:18,376 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 15:53:18,407 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 15:53:18,409 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:53:18,410 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:53:18,411 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:53:18,411 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 15:53:18,411 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 15:53:18,414 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
+2019-10-25 16:00:45,592 | INFO | c.e.d.AuthenticationTest | [main] | Starting AuthenticationTest on PH-MTHAKUR with PID 13232 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 16:00:45,604 | DEBUG | c.e.d.AuthenticationTest | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 16:00:45,606 | INFO | c.e.d.AuthenticationTest | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 16:00:52,222 | INFO | c.e.d.AuthenticationTest | [main] | Started AuthenticationTest in 6.932 seconds (JVM running for 8.676) | 
+2019-10-25 16:00:52,606 | DEBUG | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | create user request : udacity | 
+2019-10-25 16:00:52,760 | INFO | c.e.d.c.CartController | [http-nio-auto-1-exec-1] | user creation success : with username : udacity | 
+2019-10-25 16:00:53,041 | INFO | c.e.d.c.CartController | [main] | Item added to cart successfully with item id : 1 | 
+2019-10-25 16:00:53,046 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 16:00:53,048 | INFO | c.e.d.c.CartController | [main] | Item removed from cart with id : 2 | 
+2019-10-25 16:00:53,048 | DEBUG | c.e.d.c.CartController | [main] | User not found with username : null | 
+2019-10-25 16:00:53,094 | INFO | c.e.d.ECommerceApplicationTests | [main] | Starting ECommerceApplicationTests on PH-MTHAKUR with PID 13232 (started by mthakur in C:\Users\mthakur.CLINFO\Dropbox\java\projects\P04-eCommerce Application) | 
+2019-10-25 16:00:53,095 | DEBUG | c.e.d.ECommerceApplicationTests | [main] | Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE | 
+2019-10-25 16:00:53,095 | INFO | c.e.d.ECommerceApplicationTests | [main] | No active profile set, falling back to default profiles: default | 
+2019-10-25 16:00:54,897 | INFO | c.e.d.ECommerceApplicationTests | [main] | Started ECommerceApplicationTests in 1.835 seconds (JVM running for 11.351) | 
+2019-10-25 16:00:54,912 | DEBUG | c.e.d.c.ItemController | [main] | fetching item by name : item | 
+2019-10-25 16:00:54,914 | DEBUG | c.e.d.c.ItemController | [main] | fetching item with id : 1 | 
+2019-10-25 16:00:54,973 | INFO | c.e.d.c.CartController | [main] | submit order success : with id : null | 
+2019-10-25 16:00:54,973 | INFO | c.e.d.c.CartController | [main] | submit order failed for user username : null | 
+2019-10-25 16:00:54,977 | DEBUG | c.e.d.c.CartController | [main] | get order success with username : udacity | 
+2019-10-25 16:00:54,977 | INFO | c.e.d.c.CartController | [main] | get order failed for user username : null | 
+2019-10-25 16:00:55,038 | DEBUG | c.e.d.c.CartController | [main] | Find user by username : udacity | 
+2019-10-25 16:00:55,041 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 16:00:55,042 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 16:00:55,042 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 16:00:55,043 | INFO | c.e.d.c.CartController | [main] | user creation Failed : Invalid password provided. | 
+2019-10-25 16:00:55,043 | DEBUG | c.e.d.c.CartController | [main] | create user request : udacity | 
+2019-10-25 16:00:55,046 | INFO | c.e.d.c.CartController | [main] | user creation success : with username : udacity | 
