@@ -40,12 +40,4 @@ public class CreateUserRequest {
         this.confirmPassword = confirmPassword;
     }
 
-    @Override
-    public String toString() {
-        return "CreateUserRequest{" +
-                "username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", confirmPassword='" + confirmPassword + '\'' +
-                '}';
-    }
 }
